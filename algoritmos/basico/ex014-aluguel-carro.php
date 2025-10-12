@@ -1,14 +1,14 @@
 <?php 
 echo "Informe o modelo do veículo aludago: ";
-$carro = fgets(STDIN);
+$carro = readline();
 echo "Informe a quantidade de dias que o veículo ficou alugado: ";
-$dias = fgets(STDIN);
+$dias = readline();
 echo "Informe o valor do dia alugado: R$ ";
-$alugueld = fgets(STDIN);
+$alugueld = readline();
 echo "Informe a quilometragem percorrida pelo carro: ";
-$km = fgets(STDIN);
+$km = readline();
 echo "Informe o valor do quilômetro percorrido: R$ ";
-$kmp = fgets(STDIN);
+$kmp = readline();
 echo "" . PHP_EOL;
 echo "ANÁLISE: " . PHP_EOL;
 echo "MODELO: " . $carro . PHP_EOL;
