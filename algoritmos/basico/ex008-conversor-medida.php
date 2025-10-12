@@ -1,6 +1,6 @@
 <?php 
 echo "Digite uma distância em metros: ";
-$distancia = fgets(STDIN) . PHP_EOL;
+$distancia = readline() . PHP_EOL;
 $res1 = $distancia / 1000;
 $km = number_format($res1, 2, ',');
 echo "A distância corresponde a ". $km . " km.". PHP_EOL;

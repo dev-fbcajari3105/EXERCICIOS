@@ -2,9 +2,9 @@
 echo "Calcule a area a ser pintada e a quantidade de tinta a ser usada:" . PHP_EOL;
 echo "Para area a ser pintada, temos as seguntes medidas: " . PHP_EOL;
 echo "Largura da parede em metros: ";
-$largura = fgets(STDIN) . PHP_EOL;
+$largura = readline() . PHP_EOL;
 echo "Altura da parede em metros: ";
-$altura = fgets(STDIN) . PHP_EOL;
+$altura = readline() . PHP_EOL;
 $p = $largura * $altura;
 $perimetro = number_format($p, 2, ',');
 echo "Perímetro da parede a ser pintada em metros²: " . $perimetro . " m²." . PHP_EOL;

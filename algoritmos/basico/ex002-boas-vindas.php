@@ -1,5 +1,5 @@
 <?php 
 echo "Qual é o seu nome?";
-$nome = fgets(STDIN) . PHP_EOL;
+$nome = readline();
 echo "Olá " . $nome . ", é um prazer te conhecer!";
 ?>

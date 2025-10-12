@@ -1,5 +1,4 @@
 <?php 
-
 echo "Informe o seu nome: ";
 $nome = readline() . PHP_EOL;
 echo "Informe quantos cigarros você fuma/fumava por dia: ";
@@ -12,5 +11,4 @@ $AF = $anos * 365;
 $TTP = ($TPD * $AF) / 1440;
 $perdido = number_format($TTP, 2, ',');
 echo "Você perdeu " . $perdido . " dias por conta do cigarro.";
-
 ?>

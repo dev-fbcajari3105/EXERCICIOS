@@ -1,6 +1,6 @@
 <?php 
 echo "Informe um número: ";
-$numero = fgets(STDIN) . PHP_EOL;
+$numero = readline() . PHP_EOL;
 echo "O número escolhido foi " . $numero . "." . PHP_EOL;
 $res1 = $numero ** 2;
 $dobro = number_format ($res1, 2, ',');

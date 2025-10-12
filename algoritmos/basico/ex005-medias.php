@@ -1,8 +1,8 @@
 <?php 
 echo "Nota 01: ";
-$nota1 = fgets(STDIN);
+$nota1 = readline();
 echo "Nota 02: ";
-$nota2 = fgets(STDIN);
+$nota2 = readline();
 $resultado = ($nota1 + $nota2) / 2;
 $media = number_format ($resultado, 2,',');
 echo "A média entre $nota1 e $nota2 é igual a $media.";
